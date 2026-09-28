@@ -1,32 +1,67 @@
-# Prerequisites
-*.d
+# =========================================================================
+# Visual C++ Build & Intermediate Files
+# =========================================================================
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Build Directories
+Debug/
+Release/
+debug/
+release/
+
+#     .ilc
+_copy_.ilc
+
+# Workspace & Project User Options / Database
+*.ncb
+*.opt
+*.aps
+*.plg
+
+*.user
+
+# Intermediate / Object Files
 *.obj
-
-# Precompiled Headers
-*.gch
+*.sbr
+*.idb
+*.pdb
 *.pch
+*.res
+*.bsc
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+*.suo
+*.sdf
+*.ipch
+*.ilk
+*.tlog
+*.ib_tag
+*.vspx
+*.cache
+*.pchast
+*.FileListAbsolute.txt
+*.lastbuildstate
+*.embed.manifest
+*.intermediate.manifest
+*.exe.recipe
+*.iobj
+*.ipdb
+msxml*.tl*
+mt.dep
+BuildLog.htm
+_IsIncrementalBuild
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Output Files (Executable & Libraries)
 *.exe
-*.out
-*.app
+*.dll
+*.lib
+*.exp
+
+# Map & Log Files
+*.map
+*.log
+
+# Windows System Files
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+
